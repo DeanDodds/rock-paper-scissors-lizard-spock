@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+.display-none{
+    display: none !important;
+}
+
+html{
+    height: 100%;
+}
+
+#body{
+    background-image: linear-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.button{
+    border: 2px solid hsl(217, 16%, 45%);
+    color: hsl(217, 16%, 45%);
+    letter-spacing: 2px;
+}
+
+.button:hover{
+    border: 2px solid hsl(0,0%,99%);
+    color: hsl(0,0%,99%);
+}
+
+/* Score Board*/
+#score-board{
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 10px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.name h1{
+    font-size: 15px;
+    line-height: 1px;
+    color: hsl(195,29%,97%);
+    padding: 5px 10px;
+}
+
+.score{
+    background-color: hsl(0,0%,99%);
+    border-radius: 5px;
+    width: 120px;
+    padding: 5px;
+}
+
+.score h2{
+    color:  hsl(229, 64%, 46%);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#score {
+    font-size: 32px;
+}
+
+/* Game Area */
+#game-area{
+ margin: 50px auto;
+}
+
+.player-choice-container{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.player-choice{
+    background-color: hsl(0,0%,99%);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rock{
+    background-image: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.scissors{
+    background-image: linear-gradient( hsl(39, 89%, 49%) , hsl(40, 84%, 53%));
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.paper{
+    background-image: linear-gradient(hsl(230, 89%, 62%),hsl(230, 89%, 65%));
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.lizard{
+    background-image: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.spock{
+    background-image: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#background-hexigon{
+    margin: 74px 10px 10px 72px;
+    height: 400px;
+    width: 400px;
+}
+
+.player-choice-title{
+    font-size: 16px;
+    padding: 5px;
+}
+
+#step-1 {
+    margin: 10px auto;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    grid-template-rows: 25% 25% 25% 25% 25%;
+}
+
+
+#step-2{
+    color:  hsl(0,0%,99%);
+    height: 500px;
+    width: 500px;
+}
+
+/* Rules Section*/
+#rules-section{
+    margin: 50px auto;
+}
+
